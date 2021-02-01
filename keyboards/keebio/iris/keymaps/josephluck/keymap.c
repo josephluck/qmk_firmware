@@ -20,7 +20,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      KC_MINS,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                               KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-   SFT_T(KC_GRV), KC_Z, KC_X,    KC_C,    KC_V,    KC_B,  LT(_UTILS,KC_DEL),  KC_NO,   KC_N,    KC_M,   KC_COMM,  KC_DOT, RCTL_T(KC_SLSH), RSFT_T(KC_ESC),
+ SFT_T(KC_GRV),LCTL_T(KC_Z),KC_X,KC_C,    KC_V,    KC_B,  LT(_UTILS,KC_DEL),  KC_NO,   KC_N,    KC_M,   KC_COMM,  KC_DOT, RCTL_T(KC_SLSH), RSFT_T(KC_ESC),
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                             LALT_T(KC_UP), LGUI_T(KC_DOWN), LT(_RAISE, KC_SPC),    LT(_RAISE,KC_ENT), RGUI_T(KC_LEFT), RALT_T(KC_RGHT)
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
