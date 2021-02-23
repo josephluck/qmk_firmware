@@ -34,7 +34,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
       KC_UNDS, KC_AMPR, KC_LPRN,KC_LBRC ,KC_LCBR , KC_ASTR,                            KC_HASH, KC_4   , KC_5   , KC_6   , KC_NO  , KC_GRV ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-      KC_TILDE,KC_CIRC, KC_RPRN,KC_RBRC ,KC_RCBR , KC_NO  , KC_NO  ,          KC_NO  , KC_NO  , KC_1   , KC_2   , KC_3   , KC_BSLS, KC_PIPE,
+LSFT_T(KC_TILDE),LCTL_T(KC_CIRC),KC_RPRN,KC_RBRC,KC_RCBR,KC_NO,KC_NO,         KC_NO  , KC_NO  , KC_1   , KC_2   , KC_3   , KC_BSLS, KC_PIPE,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                             LALT_T(KC_UP), LGUI_T(KC_DOWN), KC_TAB,              KC_ENT, RGUI_T(KC_LEFT), RALT_T(KC_RGHT)                               
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
